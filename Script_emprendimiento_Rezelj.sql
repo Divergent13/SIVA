@@ -55,10 +55,5 @@ CREATE TABLE `emprendimiento_ropa`.`cliente` (
   `cantidad_recibida` INT NOT NULL,
   PRIMARY KEY (`id_proveedor`),
   UNIQUE INDEX `id_proveedor_UNIQUE` (`id_proveedor` ASC) VISIBLE);
-  
-ALTER TABLE producto DROP PRIMARY KEY;  
-  
-
-ALTER TABLE producto
-ADD PRIMARY KEY (talle, color,id_producto);
-  
+  ALTER TABLE proveedor 
+ADD FOREIGN KEY (id_producto) REFERENCES producto(id);
