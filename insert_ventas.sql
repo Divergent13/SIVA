@@ -1,0 +1,10 @@
+INSERT INTO `emprendimiento_ropa`.`ventas` (`id_pedido`, `empleado_venta`, `concretado`) VALUES ('1', '4', 'Si');
+INSERT INTO `emprendimiento_ropa`.`ventas` (`id_pedido`, `empleado_venta`, `concretado`) VALUES ('2', '8', 'No');
+INSERT INTO `emprendimiento_ropa`.`ventas` (`id_pedido`, `empleado_venta`, `concretado`) VALUES ('3', '2', 'Si');
+INSERT INTO `emprendimiento_ropa`.`ventas` (`id_pedido`, `empleado_venta`, `concretado`) VALUES ('4', '5', 'Si');
+INSERT INTO `emprendimiento_ropa`.`ventas` (`id_pedido`, `empleado_venta`, `concretado`) VALUES ('5', '8', 'No');
+INSERT INTO `emprendimiento_ropa`.`ventas` (`id_pedido`, `empleado_venta`, `concretado`) VALUES ('6', '9', 'No');
+INSERT INTO `emprendimiento_ropa`.`ventas` (`id_pedido`, `empleado_venta`, `concretado`) VALUES ('7', '6', 'Si');
+INSERT INTO `emprendimiento_ropa`.`ventas` (`id_pedido`, `empleado_venta`, `concretado`) VALUES ('8', '3', 'Si');
+INSERT INTO `emprendimiento_ropa`.`ventas` (`id_pedido`, `empleado_venta`, `concretado`) VALUES ('9', '12', 'Si');
+INSERT INTO `emprendimiento_ropa`.`ventas` (`id_pedido`, `empleado_venta`, `concretado`) VALUES ('10', '19', 'Si');
